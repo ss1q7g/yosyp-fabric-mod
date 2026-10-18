@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft_no_ty_yosyp",
+  "version": "${version}",
+  "name": "майнкрафт но ты йосып",
+  "description": "почуствуй себя йосыпом играя в майнкрафт",
+  "authors": [
+    "Yosyp"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ua.yosyp.yosyp.YosypMod"
+    ],
+    "client": [
+      "ua.yosyp.yosyp.YosypClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
